@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://obvio.github.com/",
+        origin: "https://obvio.github.com",
         base: '/qwik-city/'
       }),
     ],
